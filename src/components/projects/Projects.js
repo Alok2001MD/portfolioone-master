@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree,projectFour,projectFive } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour,projectFive,projectSix } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -48,7 +48,7 @@ const Projects = () => {
           des=" 
           I built an online quiz platform where users can create, share, and participate in quizzes on various topics." 
    
-          src={projectTwo}
+          src={projectSix}
         />
       </div>
     </section>
