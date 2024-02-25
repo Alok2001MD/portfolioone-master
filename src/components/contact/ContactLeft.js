@@ -10,7 +10,7 @@ const ContactLeft = () => {
         src={contactImg}
         alt="contactImg"
       />
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4" id='contact'>
         <h3 className="text-3xl font-bold text-white">Alok Mattihalli</h3>
         <p className="text-lg font-normal text-gray-400">
           Full  Stack Developer
