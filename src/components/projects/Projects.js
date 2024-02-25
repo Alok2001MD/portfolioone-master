@@ -47,7 +47,6 @@ const Projects = () => {
           title="Online Quiz Platform"
           des=" 
           I built an online quiz platform where users can create, share, and participate in quizzes on various topics." 
-   
           src={projectSix}
         />
       </div>
