@@ -1,8 +1,23 @@
 import React,{useState} from 'react'
 import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
-
+//react hooks for state management 
 const Contact = () => {
+// return<div>
+//   <div className="visme_d" data-title="Feedback Contact Form" data-url="q6p1194d-feedback-contact-form" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="21741">
+  
+//   </div>
+//   <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+// </div>
+
+  // return<>
+  
+  // <div>
+  // <div class="visme_d" data-title="Feedback Contact Form" data-url="q6p1194d-feedback-contact-form" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="21741">
+  // </div>
+  // <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+  // </div>
+  // </>
   const [username, setUsername] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -46,12 +61,9 @@ const Contact = () => {
     }
   };
   return (
-    <section
-      id="contact"
-      className="w-full py-20 border-b-[1px] border-b-black"
-    >
+    <section id="contact" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="" des="Contact With Me" />
+        <Title  des="Contact With Me" />
       </div>
       <div className="w-full">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
