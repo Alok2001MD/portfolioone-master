@@ -26,7 +26,7 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        <p className="text-base font-bodyFont leading-6 tracking-wide text-justify">
           As a full stack developer, I adeptly create intuitive UIs with
           React.js and Vue.js, complemented by backend expertise in Node.js and
           Python. My design skills allow me to craft visually appealing user.
