@@ -3,21 +3,6 @@ import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
 //react hooks for state management 
 const Contact = () => {
-// return<div>
-//   <div className="visme_d" data-title="Feedback Contact Form" data-url="q6p1194d-feedback-contact-form" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="21741">
-  
-//   </div>
-//   <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
-// </div>
-
-  // return<>
-  
-  // <div>
-  // <div class="visme_d" data-title="Feedback Contact Form" data-url="q6p1194d-feedback-contact-form" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="21741">
-  // </div>
-  // <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
-  // </div>
-  // </>
   const [username, setUsername] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
@@ -33,9 +18,12 @@ const Contact = () => {
       .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
   // ========== Email Validation end here ================
+
+  //===========Phone number Validation start here===========
   const numValidation=()=>{
     return Number(phoneNumber) && phoneNumber.length ===  10;
-  }
+  };
+  //==========Phone Number Validation ends here============
   const handleSend = (e) => {
     e.preventDefault();
     if (username === "") {

@@ -10,9 +10,9 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+      {/* Logo thats in nav bar. */}
       <div>
         <img src={logo} alt="logo"  className='h-20 object-cover rounded-full relative after:absolute after:top-0 after:right-0 after:bottom-0 after:left-full after:w-16 after:bg-gradient-to-r from-transparent to-gray-300 '/>
-
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -21,23 +21,13 @@ const Navbar = () => {
               className="text-base font-normal text-gray-400 tracking-wide cursor-pointer hover:text-designColor duration-300"
               key={_id}
             >
-              <Link
-                activeClass="active"
-                to={link}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
+              <Link activeClass="active" to={link} spy={true} smooth={true} offset={-70} duration={500}>
                 {title}
               </Link>
             </li>
           ))}
         </ul>
-        <span
-          onClick={() => setShowMenu(!showMenu)}
-          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
-        >
+        <span onClick={() => setShowMenu(!showMenu)} className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer">
           <FiMenu />
         </span>
         {showMenu && (
