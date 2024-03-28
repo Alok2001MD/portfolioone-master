@@ -29,7 +29,7 @@ const Projects = () => {
         />
         {/*  Project Three */}
         <ProjectsCard
-          title="Wheather Forecasting"
+          title="Cloud Point-APIs bases Weather Application"
           des=" I created a weather forecasting application that provides accurate and timely 
           updates on current and future weather conditions. Users can access detailed forecasts."
           src={projectThree}

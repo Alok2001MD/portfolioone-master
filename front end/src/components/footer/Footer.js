@@ -33,16 +33,12 @@ const Footer = () => {
             </a>
           </li>
           <li>
+            <a href='#features'>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
               Services
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Blog
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+            </a>
           </li>
           <li>
             <a href='#contact'>

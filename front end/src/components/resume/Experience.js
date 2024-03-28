@@ -32,6 +32,13 @@ const Experience = () => {
             des="J&Q Spiders certification as a web developer acknowledges expertise in web development, encompassing skills in coding, designing, and maintaining websites to meet modern industry standards.
             "
           />
+            <ResumeCard
+            title="AWS Certifed Cloud Practitioner"
+            subTitle="Amazon Web Services - (2024)"
+            result="India"
+            des="The AWS Certified Cloud Practitioner certification, provided by Amazon Web Services (AWS), recognizes proficiency in foundational cloud computing concepts. It encompasses skills in understanding AWS Cloud services, architecture, security, and compliance, aligning with contemporary industry standards for cloud computing expertise.
+            "
+          />
         </div>
       </div>
     </motion.div>
